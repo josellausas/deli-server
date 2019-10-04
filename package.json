@@ -1,0 +1,17 @@
+{
+  "name": "deli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zunware <jose@josellausas.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
