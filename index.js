@@ -38,6 +38,11 @@ app.get('/api/members', (req, res) => {
   return res.json(members);
 });
 
+app.get('/api/members/:id', (req,res) => {
+  memberId = req.params.id;
+  return res.json(members[memberId]);
+});
+
 app.listen(
   PORT,
   () => console.log(`Server started on port ${PORT}`)
